@@ -1,8 +1,8 @@
 # or 10
 # and 20
 # not 30
-# True 40
-# False 50
+# true 40
+# false 50
 # ( 60
 # ) 70
 # identificador 100
@@ -54,7 +54,7 @@ def factor(tokens, i):
         error = 'ERROR: SE ESPERABA (, NOT, TRUE, FALSE, IDENTIFICADOR O NUMERO'
 
     return i, error
-
-tokens = [60, 50, 20, 30, 100, 70]
+# (false and not 3)
+tokens = [60, 50, 20, 30, 200, 70]
 
 print(ini(tokens))
